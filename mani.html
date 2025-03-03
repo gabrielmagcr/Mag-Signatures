@@ -1,3 +1,4 @@
+<body>
 <div id="content">
     <table style="font-family: Arial, Helvetica, sans-serif; width: 504px; border-collapse: collapse; height: 151px;">
         <tbody>
@@ -44,8 +45,38 @@
 </div>
 
 <br><br>
+    <span>Step 1</span>
 <button id="btn">Click here to copy</button>
+<br><br>
 
+<div class="steps">
+    <span>Step 2: Go to <a href="https://mail.google.com/mail" target="_blank">Gmail.com</a> and click on settings</span>
+
+    <img src="./assets/step 2.png" alt="">
+    <span>Click on See all settings</span>
+    <img src="./assets/step 3.png" alt="">
+    <span>Scroll down and click on Create new button</span>
+    <img src="./assets/step 4.png" alt="">
+    <span>Add the name, click on Create</span>
+    <img src="./assets/step 5.png" alt="">
+    <span>Paste the signature and selecte it on "For New emails use" and "On reply/fowards use" and then save changes</span>
+    <img src="./assets/step 6.png" alt="">
+</div>
+</body>
+
+<style>
+    body{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .steps{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+</style>
 <script>
     document.getElementById("btn").addEventListener("click", async function() {
         const content = document.getElementById("content").outerHTML;
