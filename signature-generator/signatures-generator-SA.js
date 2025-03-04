@@ -6,6 +6,7 @@ const outputDir = path.join(__dirname, "signatures");
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
+
 const employees = [
     { name: "Althia Kapp", position: "Account Manager & Head of Accounts", phone: "082 922 6904", email: "althia@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Althia%20Kapp_400x400Transparent.png" },
     { name: "Annemarie Luck", position: "Content Strategist", phone: "084 999 5257", email: "annemarie@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Annemarie%20Luck_400x400Transparent.png" },
@@ -27,9 +28,23 @@ const employees = [
     { name: "Jess van Anraad", position: "Junior Designer", phone: "066 054 6464", email: "Jess@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Jess%20van%20Anraad_400x400Transparent.png" },
     { name: "Jomarie Voges", position: "Accountant", phone: "082 269 7542", email: "jomarie@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Jomarie%20Voges_400x400Transparent.png" },
     { name: "Kayla Spinelli", position: "Office Administration/PA", phone: "081 476 6721", email: "Kayla@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Kayla%20Spinelli_400x400Transparent.png" },
+    { name: "Kendel Falkson", position: "PR Agent", phone: "082 905 2656", email: "Kendel@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Kendel%20Falkson_400x400Transparent.png" },
+    { name: "Lani Bruwer", position: "Web Developer - Information Architect", phone: "084 452 2304", email: "lani@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Lani%20Bruwer_400x400Transparent.png" },
+    { name: "LeeAnn Visser", position: "Video Producer", phone: "078 675 6476", email: "lee@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/LeeAnn%20Visser_400x400Transparent.png" },
+    { name: "Marie Hentschel", position: "Account Manager", phone: "076 943 5587", email: "marie@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Marie%20Hentschel_400x400Transparent.png" },
+    { name: "Micaela Cox", position: "Motion Graphics Designer", phone: "082 977 5880", email: "Micaela@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Micaela%20Cox_400x400Transparent.png" },
+    { name: "Mihlali Vumazonke", position: "Social Media and Influencer", phone: "067 252 7987", email: "Mihlali@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Mihlali%20Vumazonke_400x400Transparent.png" },
+    { name: "Nicelle Bresler", position: "Senior Copywriter & Strategist", phone: "082 295 1396", email: "Nicell@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Nicelle%20Bresler_400x400Transparent.png" },
+    { name: "Noël Scholtz", position: "Videographer/Editor", phone: "072 070 5996", email: "noel@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/No%C3%ABl%20Scholtz_400x400Transparent.png" },
+    { name: "Nuhaa Davis", position: "Copywriter", phone: "079 467 4386", email: "Nuhaa@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Nuhaa%20Davis_400x400Transparent.png" },
+    { name: "Portia Matha", position: "Digital Marketing & Web Developer Intern", phone: "064 999 3847", email: "portia@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Portia%20Matha_400x400Transparent.png" },
+    { name: "Riana Wiechers", position: "Copywriter", phone: "063 687 4517", email: "riana@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Riana%20Wiechers_400x400Transparent.png" },
+    { name: "Riëtte Bester", position: "Copywriter", phone: "082 058 3483", email: "riette@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Ri%C3%ABtte%20Bester_400x400Transparent.png" },
+    { name: "Simeon Bezuidenhout", position: "Videographer/Editor", phone: "071 462 0366", email: "simeon@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Simeon%20Bezuidenhout_400x400Transparent.png" },
     { name: "Tshituku Ndadza", position: "Social Media & Community Manager", phone: "078 593 5815", email: "Tshituku@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Tshituku%20Ndadza_400x400Transparent.png" },
     { name: "Willem van der Merwe", position: "Intern Digital Marketer", phone: "082 799 5884", email: "Willem@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Willem%20van%20der%20Merwe_400x400Transparent.png" }
 ];
+
 
 
 employees.forEach(employee => {
