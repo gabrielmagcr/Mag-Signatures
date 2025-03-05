@@ -8,8 +8,8 @@ if (!fs.existsSync(outputDir)) {
 }
 
 const employees = [
-    { name: "Althia Kapp", position: "Account Manager & Head of Accounts", phone: "082 922 6904", email: "althia@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Althia%20Kapp_400x400Transparent.png" },
-    { name: "Annemarie Luck", position: "Content Strategist", phone: "084 999 5257", email: "annemarie@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Annemarie%20Luck_400x400Transparent.png" },
+    { name: "Althia Kapp", position: "Account Manager & Head of Accounts", phone: "044 382 0565", email: "althia@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Althia%20Kapp_400x400Transparent.png" },
+    { name: "Annemarie Luck", position: "Head of Strategy", phone: "084 999 5257", email: "annemarie@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Annemarie%20Luck_400x400Transparent.png" },
     { name: "Ashleigh van Loggerenberg", position: "Junior Copywriter", phone: "064 365 4467", email: "Ashleigh@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Ashleigh%20van%20Loggerenberg_400x400Transparent.png" },
     { name: "Candice Masson", position: "Director of Growth", phone: "078 544 7782", email: "candice@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Candice%20Masson_400x400Transparent.png" },
     { name: "Carla Engelbrecht", position: "Designer", phone: "084 729 3414", email: "carla@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Carla%20Engelbrecht_400x400Transparent.png" },
@@ -33,14 +33,14 @@ const employees = [
     { name: "LeeAnn Visser", position: "Video Producer", phone: "078 675 6476", email: "lee@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/LeeAnn%20Visser_400x400Transparent.png" },
     { name: "Marie Hentschel", position: "Account Manager", phone: "076 943 5587", email: "marie@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Marie%20Hentschel_400x400Transparent.png" },
     { name: "Micaela Cox", position: "Motion Graphics Designer", phone: "082 977 5880", email: "Micaela@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Micaela%20Cox_400x400Transparent.png" },
-    { name: "Mihlali Vumazonke", position: "Social Media and Influencer", phone: "067 252 7987", email: "Mihlali@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Mihlali%20Vumazonke_400x400Transparent.png" },
+    { name: "Mihlali Vumazonke", position: "Social Media and Influencer Manager", phone: "067 252 7987", email: "Mihlali@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Mihlali%20Vumazonke_400x400Transparent.png" },
     { name: "Nicelle Bresler", position: "Senior Copywriter & Strategist", phone: "082 295 1396", email: "Nicell@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Nicelle%20Bresler_400x400Transparent.png" },
     { name: "Noël Scholtz", position: "Videographer/Editor", phone: "072 070 5996", email: "noel@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/No%C3%ABl%20Scholtz_400x400Transparent.png" },
     { name: "Nuhaa Davis", position: "Copywriter", phone: "079 467 4386", email: "Nuhaa@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Nuhaa%20Davis_400x400Transparent.png" },
     { name: "Portia Matha", position: "Digital Marketing & Web Developer Intern", phone: "064 999 3847", email: "portia@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Portia%20Matha_400x400Transparent.png" },
     { name: "Riana Wiechers", position: "Copywriter", phone: "063 687 4517", email: "riana@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Riana%20Wiechers_400x400Transparent.png" },
     { name: "Riëtte Bester", position: "Copywriter", phone: "082 058 3483", email: "riette@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Ri%C3%ABtte%20Bester_400x400Transparent.png" },
-    { name: "Simeon Bezuidenhout", position: "Videographer/Editor", phone: "071 462 0366", email: "simeon@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Simeon%20Bezuidenhout_400x400Transparent.png" },
+    { name: "Simeon Bezuidenhout", position: "Videographer/Editor", phone: "071 462 0366", email: "simeon@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Magnetic-logo.png" },
     { name: "Tshituku Ndadza", position: "Social Media & Community Manager", phone: "078 593 5815", email: "Tshituku@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Tshituku%20Ndadza_400x400Transparent.png" },
     { name: "Willem van der Merwe", position: "Intern Digital Marketer", phone: "082 799 5884", email: "Willem@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/SA/Willem%20van%20der%20Merwe_400x400Transparent.png" }
 ];
@@ -90,7 +90,7 @@ employees.forEach(employee => {
                                     <img src="https://magneticcreative.com/hubfs/2025-emailsignatures/globe.png" alt="" width="18" />
                                 </td>
                                 <td style="vertical-align: middle; padding-left: 5px;">
-                                    <a style="text-decoration: none; border-bottom: none; color: #333333;" href="https://www.mag.cr">Mag.cr</a>
+                                    <a style="text-decoration: none; border-bottom: none; color: #333333;" href="https://magneticcreative.com/">magneticcreative.com</a>
                                 </td>
                             </tr>
                             <tr>

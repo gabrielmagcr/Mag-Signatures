@@ -14,8 +14,8 @@ const employees = [
     { name: "Dave Korinek", position: "CEO - Partner", phone: "858-395-6726", email: "dave@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Dave%20Korinek_400x400Transparent.png" },
     { name: "David Carrillo", position: "ECD - Partner", phone: "858-334-9855", email: "dc@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/David%20Carillo_400x400Transparent.png" },
     { name: "Eric Kroupa", position: "ACD - Head of Content Strategy", phone: "636-236-8584", email: "eric@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Eric%20Kroupa_400x400Transparent.png" },
-    { name: "Gabriel Arias", position: "Junior Web Developer", phone: "584242038467", email: "gabriel@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Gabriel%20Arias_400x400Transparent.png" },
-    { name: "Jorge Ramirez", position: "Head of Development", phone: "50258748315", email: "jorge@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Jorge%20Ramirez_400x400Transparent.png" },
+    { name: "Gabriel Arias", position: "Junior Web Developer", phone: "+584242038467", email: "gabriel@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Gabriel%20Arias_400x400Transparent.png" },
+    { name: "Jorge Ramirez", position: "Head of Development", phone: "+502 5874-8315", email: "jorge@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Jorge%20Ramirez_400x400Transparent.png" },
     { name: "Lauren Spinelli", position: "Account Manager", phone: "951-775-2078", email: "lauren@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Lauren%20Spinelli_400x400Transparent.png" },
     { name: "Mani Salazar", position: "Design Director", phone: "858-610-5380", email: "mani@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Manuel%20Salazar_400x400Transparent.png" },
     { name: "Matt Simpson", position: "COO - Partner", phone: "858-705-2490", email: "matt@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Matt%20Simpson_400x400Transparent.png" },
@@ -69,7 +69,7 @@ employees.forEach(employee => {
                                     <img src="https://magneticcreative.com/hubfs/2025-emailsignatures/globe.png" alt="" width="18" />
                                 </td>
                                 <td style="vertical-align: middle; padding-left: 5px;">
-                                    <a style="text-decoration: none; border-bottom: none; color: #333333;" href="https://www.mag.cr">Mag.cr</a>
+                                    <a style="text-decoration: none; border-bottom: none; color: #333333;" href="https://magneticcreative.com/">magneticcreative.com</a>
                                 </td>
                             </tr>
                             <tr>
