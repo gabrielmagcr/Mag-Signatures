@@ -90,7 +90,7 @@ employees.forEach(employee => {
                                     <img src="https://magneticcreative.com/hubfs/2025-emailsignatures/globe.png" alt="" width="18" />
                                 </td>
                                 <td style="vertical-align: middle; padding-left: 5px;">
-                                    <a style="text-decoration: none; border-bottom: none; color: #333333;" href="https://magneticcreative.com/">magneticcreative.com</a>
+                                    <a style="text-decoration: none; border-bottom: none; color: #333333;" href="https://magneticcreative.com/" target="_blank">magneticcreative.com</a>
                                 </td>
                             </tr>
                             <tr>
