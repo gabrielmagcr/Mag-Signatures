@@ -7,7 +7,7 @@ if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
 const employees = [
-    { name: "Owen Korinek", position: "Videographer/Editor", phone: "", email: "owen@mag.cr" },
+    { name: "Owen Korinek", position: "Videographer/Editor", phone: "951-595-5535", email: "owen@mag.cr" },
     { name: "Bernadette Rose Marconi", position: "Senior Designer", phone: "440-523-9455", email: "bernadette@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Bernadette%20Marconi_400x400Transparent.png" },
     { name: "Brad Hendrickson", position: "Junior Partner & CCO", phone: "818-231-7580", email: "brad@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Brad%20Hendrickson_400x400Transparent.png" },
     { name: "Brett Lorenz", position: "Head of Video Production", phone: "865-323-0916", email: "brett@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Brett%20Lorenz_400x400Transparent.png" },
