@@ -8,23 +8,23 @@ if (!fs.existsSync(outputDir)) {
 }
 const employees = [
     { name: "Owen Korinek", position: "Videographer/Editor", phone: "951-595-5535", email: "owen@mag.cr" },
-    { name: "Bernadette Rose Marconi", position: "Senior Designer", phone: "440-523-9455", email: "bernadette@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/bernadette-marconi-400x400transparent.png" },
-    { name: "Brad Hendrickson", position: "Junior Partner & CCO", phone: "818-231-7580", email: "brad@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/brad-hendrickson-400x400transparent.png" },
-    { name: "Brett Lorenz", position: "Head of Video Production", phone: "865-323-0916", email: "brett@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/brett-lorenz-400x400transparent.png" },
-    { name: "Brittany Carlson", position: "Account Operations Manager", phone: "951-225-5607", email: "Brittany@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/brittany-carlson-400x400transparent.png" },
-    { name: "Dave Korinek", position: "Founding Partner", phone: "858-395-6726", email: "dave@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/dave-korinek-400x400transparent.png" },
-    { name: "David Carrillo", position: "Partner & ECD", phone: "858-334-9855", email: "dc@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/david-carillo-400x400transparent.png" },
-    { name: "Eric Kroupa", position: "Head of Content Strategy & ACD", phone: "636-236-8584", email: "eric@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/eric-kroupa-400x400transparent.png" },
-    { name: "Gabriel Arias", position: "Junior Web Developer", phone: "+584242038467", email: "gabriel@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/gabriel-arias-400x400transparent.png" },
-    { name: "Jorge Ramirez", position: "Head of Web Development", phone: "+502 5874-8315", email: "jorge@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/jorge-ramirez-400x400transparent.png" },
-    { name: "Lauren Spinelli", position: "Account Director", phone: "951-775-2078", email: "lauren@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/lauren-spinelli-400x400transparent.png" },
-    { name: "Manuel Salazar", position: "Design Director", phone: "858-610-5380", email: "mani@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/manuel-salazar-400x400transparent.png" },
-    { name: "Matt Simpson", position: "Partner & CGO", phone: "858-705-2490", email: "matt@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/matt-simpson-400x400transparent.png" },
-    { name: "Mia Pitino", position: "HR/Operations Manager", phone: "858-395-7142", email: "mia@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/mia-pitino-400x400transparent.png" },
-    { name: "Noah Korinek", position: "Designer", phone: "951-553-5340", email: "noah@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/noah-korinek-400x400transparent.png" },
-    { name: "Paul Venter", position: "Partner", phone: "858-999-7975", email: "paul@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/paul-venter-400x400transparent.png" },
-    { name: "Thomas Condry", position: "Designer", phone: "909-210-7305", email: "thomas@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/thomas-condry-400x400transparent.png" },
-    { name: "Tommy Eggert", position: "Producer", phone: "858-243-1246", email: "tommy@mag.cr", image: "https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/headshots/us/thomas-eggert-400x400transparent.png" }
+    { name: "Bernadette Rose Marconi", position: "Senior Designer", phone: "440-523-9455", email: "bernadette@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Bernadette%20Marconi_400x400Transparent.png" },
+    { name: "Brad Hendrickson", position: "Junior Partner & CCO", phone: "818-231-7580", email: "brad@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Brad%20Hendrickson_400x400Transparent.png" },
+    { name: "Brett Lorenz", position: "Head of Video Production", phone: "865-323-0916", email: "brett@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Brett%20Lorenz_400x400Transparent.png" },
+    { name: "Brittany Carlson", position: "Account Operations Manager", phone: "951-225-5607", email: "Brittany@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Brittany%20Carlson_400x400Transparent.png" },
+    { name: "Dave Korinek", position: "Founding Partner", phone: "858-395-6726", email: "dave@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Dave%20Korinek_400x400Transparent.png" },
+    { name: "David Carrillo", position: "Partner & ECD", phone: "858-334-9855", email: "dc@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/David%20Carillo_400x400Transparent.png" },
+    { name: "Eric Kroupa", position: "Head of Content Strategy & ACD", phone: "636-236-8584", email: "eric@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Eric%20Kroupa_400x400Transparent.png" },
+    { name: "Gabriel Arias", position: "Junior Web Developer", phone: "+584242038467", email: "gabriel@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Gabriel%20Arias_400x400Transparent.png" },
+    { name: "Jorge Ramirez", position: "Head of Web Development", phone: "+502 5874-8315", email: "jorge@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Jorge%20Ramirez_400x400Transparent.png" },
+    { name: "Lauren Spinelli", position: "Account Director", phone: "951-775-2078", email: "lauren@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Lauren%20Spinelli_400x400Transparent.png" },
+    { name: "Manuel Salazar", position: "Design Director", phone: "858-610-5380", email: "mani@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Manuel%20Salazar_400x400Transparent.png" },
+    { name: "Matt Simpson", position: "Partner & CGO", phone: "858-705-2490", email: "matt@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Matt%20Simpson_400x400Transparent.png" },
+    { name: "Mia Pitino", position: "HR/Operations Manager", phone: "858-395-7142", email: "mia@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Mia%20Pitino_400x400Transparent.png" },
+    { name: "Noah Korinek", position: "Designer", phone: "951-553-5340", email: "noah@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Noah%20Korinek_400x400Transparent.png" },
+    { name: "Paul Venter", position: "Partner", phone: "858-999-7975", email: "paul@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Paul%20Venter_400x400Transparent.png" },
+    { name: "Thomas Condry", position: "Designer", phone: "909-210-7305", email: "thomas@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Thomas%20Condry_400x400Transparent.png" },
+    { name: "Tommy Eggert", position: "Producer", phone: "858-243-1246", email: "tommy@mag.cr", image: "https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/US/Thomas%20Eggert_400x400Transparent.png" }
 ];
 
 employees.forEach(employee => {
@@ -59,7 +59,7 @@ employees.forEach(employee => {
                         <tbody>
                             <tr>
                                 <td style="vertical-align: middle;">
-                                    <img src="https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/icons/mail.png" alt="" width="18" />
+                                    <img src="https://magneticcreative.com/hubfs/2025-emailsignatures/mail.png" alt="" width="18" />
                                 </td>
                                 <td style="vertical-align: middle; padding-left: 5px;">
                                     <a style="text-decoration: none; border-bottom: none; color: #333333;" href="mailto:${employee.email}">${employee.email}</a>
@@ -67,7 +67,7 @@ employees.forEach(employee => {
                             </tr>
                             <tr>
                                 <td style="vertical-align: middle;">
-                                    <img src="https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/icons/globe.png" alt="" width="18" />
+                                    <img src="https://magneticcreative.com/hubfs/2025-emailsignatures/globe.png" alt="" width="18" />
                                 </td>
                                 <td style="vertical-align: middle; padding-left: 5px;">
                                     <a style="text-decoration: none; border-bottom: none; color: #333333;" href="https://magneticcreative.com/" target="_blank">magneticcreative.com</a>
@@ -75,7 +75,7 @@ employees.forEach(employee => {
                             </tr>
                             <tr>
                                 <td style="vertical-align: middle;">
-                                    <img src="https://cdn.jsdelivr.net/gh/gabrielmagcr/Mag-Signatures@v1.0.0/images/icons/smartphone.png" alt="" width="18" />
+                                    <img src="https://magneticcreative.com/hubfs/Email%20Signature%20Headshots/smartphone.png" alt="" width="18" />
                                 </td>
                                 <td style="vertical-align: middle; padding-left: 5px;">
                                     <a style="text-decoration: none; border-bottom: none; color: #333333;" href="tel:${employee.phone}">${employee.phone}</a>
